@@ -1,0 +1,4 @@
+python main.py --config=LA_SMAC --env-config=sc2 with env_args.map_name=5m_vs_6m beta1=200 beta2=2 label=LAIES anneal_speed=4000000 wandb=True t_max=5200000 seed=125 end_idi=4000000 wandb_name=Laidi4000&&
+python main.py --config=LA_SMAC --env-config=sc2 with env_args.map_name=5m_vs_6m beta1=200 beta2=2 label=LAIES anneal_speed=4000000 wandb=True t_max=5200000 seed=125 end_idi=4000000 wandb_name=Laidi4001&&
+python main.py --config=LA_SMAC --env-config=sc2 with env_args.map_name=5m_vs_6m beta1=200 beta2=2 label=LAIES anneal_speed=4000000 wandb=True t_max=5200000 seed=125 end_idi=4000000 wandb_name=Laidi4002&&
+python main.py --config=LA_SMAC --env-config=sc2 with env_args.map_name=5m_vs_6m beta1=200 beta2=2 label=LAIES anneal_speed=4000000 wandb=True t_max=5200000 seed=125 end_idi=4000000 wandb_name=Laidi4003
