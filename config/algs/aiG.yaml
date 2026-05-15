@@ -23,7 +23,7 @@ mac: "n_mac"
 agent: "n_rnn"
 agent_output_type: q
 
-learner: "LAGraph_SMAC"
+learner: "Graph_SMAC"
 mixer: "graphmix"
 mixing_embed_dim: 32
 hypernet_layers: 2

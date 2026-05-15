@@ -24,7 +24,7 @@ mac: "n_mac"
 agent: "n_rrn"
 agent_output_type: q
 
-learner: "LA_SMAC"
+learner: "aimg"
 mixer: "qmix"
 mixing_embed_dim: 32
 hypernet_embed: 64

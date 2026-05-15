@@ -4,10 +4,10 @@ import torch.nn.functional as F
 
 
 
-class RRUCell(nn.Module):
+class SRUCell(nn.Module):
     def __init__(self, num_units, output_size=256, relu_layers=1, middle_layer_size_multiplier=2, dropout_rate=0.5,
                  training=False, learable_parameter='false', S_init='constant'):
-        super(RRUCell, self).__init__()
+        super(SRUCell, self).__init__()
 
         self.num_units = num_units
         self.output_size = output_size

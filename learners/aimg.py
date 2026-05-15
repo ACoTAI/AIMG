@@ -20,7 +20,7 @@ from torch import nn as nn
 from torch.nn import functional as F
 from components.episode_buffer import EpisodeBatch
 from torch.utils.data.sampler import BatchSampler, SubsetRandomSampler
-from modules.gigm import GIGM
+from modules.layer.gigm import GIGM
 
 
 class AIMG_SMAC_Learner:
